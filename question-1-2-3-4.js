@@ -12,7 +12,7 @@ let assignments = [ "Lab1", "Lab2", "Mid Term", "Lab3", "Project", "Final Exam"]
 //Below this line, declare an array named "grades" with the numeric values
 //from question one in the lab.
 
-let grades = ["90","80","78", "81", "91","89"];
+let grades = [90, 80,78, 81, 91,89];
      
 
 
@@ -31,7 +31,7 @@ let sum = 0
 for (let j = 0; j <grades.length; j++){
      sum = sum + grades [j]
 }
-console.log("Average Grade: ", sum / grades.length); 
+console.log("Average Grade:", sum / grades.length); 
        
 
 
